@@ -1,76 +1,123 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-    <head>
-        <title>Maman Therese</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-        <meta name="keywords" content="pasta, dolci, farina, casarecci, uovo, cave, Alessandro Sebastiani, Daniele Maggi, web&soft, wsoft-labs.com">
-        <meta name="description" content="Maman Therese - Pasta fresca e dolci casarecci">
-        <meta name="robots" content="all,follow">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/footer.css">
-        <link rel="stylesheet" href="css/contatti.css">
-        <link rel="stylesheet" href="menu_files/style.css" type="text/css"/>
+  <head>
+    <title>Maman Thérèse</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta
+      name="keywords"
+      content="pasta, dolci, farina, casarecci, uovo, cave, roma"
+    />
+    <meta
+      name="description"
+      content="Maman Thérèse - Pasta fresca e dolci casarecci"
+    />
+    <meta name="robots" content="all,follow" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/contatti.css" />
+    <link rel="stylesheet" href="menu_files/style.css" type="text/css" />
 
-        <script type="text/javascript" src="js/jtools1.js"></script>
-        <script type="text/javascript" src="js/jquery.corner.js"></script>
-        <script type="text/javascript">
-            $('#logo_image').corner("top");
-            $('#content').corner("bottom");
-        </script>
-    </head>
-    <body>
-
-        <div id="header">
-            <img id="logo_image" src="img/logo.png" alt="Logo">
-        </div>
-        <div id="menu">
-            <ul id="css3menu">
-    <li class="topfirst topMenu"><a href="index.php" title="Home">Home</a></li>
-    <li class="topMenu"><a href="pasta.php" title="Pasta">Pasta</a></li>
-    <li class="topMenu"><a href="dolci.php" title="Dolci">Dolci</a></li>
-    <li class="topMenu"><a href="gallery.php" title="Galleria Fotografica">Galleria Fotografica</a></li>
-    <li class="topMenu"><a href="dove.php" title="Dove siamo">Dove siamo</a></li>
-    <li class="toplast topMenu"><a href="contatti.php" title="Contatti">Contatti</a></li>
-</ul>
-
-
-        </div>
-        <div id="content">
-            <div id="contact">
-                <h2>Maman Therese</h2>
-                <h3>Tel. 06.950.8551 / 339.36.87.083</h3>
-                <h3>info@mamantherese.it</h3>
-                <p>Compila il form per inviarci un messaggio</p>
-                <div id="form_mail">
-                    <form method="POST" action="sendmail.php">
-                        <div id="tabella_form">
-                            <table>
-                                <tr><td><i>Nome*</i></td><td><i>Cognome*</i></td></tr>
-                                <tr><td><input class="testo" name="nome" type="text"></td><td><input class="testo" name="cognome" type="text"></td></tr>
-                                <tr><td><i>Telefono</i></td><td><i>Email*</i></td></tr>
-                                <tr><td><input class="testo" name="telefono" type="text"></td><td><input class="testo" name="email" type="text"></td></tr>
-                                <tr><td colspan="2"><i>Messaggio*</i></td></tr>
-                                <tr><td colspan="2"><textarea class="testo" name="messaggio" rows="4" cols="70"></textarea></td></tr>
-                                <tr><td><input class="bottone" type="submit" value="Invia"></td><td><input class="bottone" type="reset" value="Reset"><br /></td></tr><br />
-                            </table>
-                        </div>
-                    </form>
-                </div>
+    <script type="text/javascript" src="js/jtools1.js"></script>
+    <script type="text/javascript" src="js/jquery.corner.js"></script>
+    <script type="text/javascript">
+      $("#logo_image").corner("top");
+      $("#content").corner("bottom");
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <img id="logo_image" src="img/logo.png" alt="Logo" />
+    </div>
+    <div id="menu">
+      <ul id="css3menu">
+        <li class="topfirst topMenu">
+          <a href="index.html" title="Home">Home</a>
+        </li>
+        <li class="topMenu"><a href="pasta.html" title="Pasta">Pasta</a></li>
+        <li class="topMenu"><a href="dolci.html" title="Dolci">Dolci</a></li>
+        <li class="topMenu">
+          <a href="gallery.html" title="Galleria Fotografica"
+            >Galleria Fotografica</a
+          >
+        </li>
+        <li class="topMenu">
+          <a href="dove.html" title="Dove siamo">Dove siamo</a>
+        </li>
+        <li class="toplast topMenu">
+          <a href="contatti.html" title="Contatti">Contatti</a>
+        </li>
+      </ul>
+    </div>
+    <div id="content">
+      <div id="contact">
+        <h2>Maman Therese</h2>
+        <h3>Tel. 06.950.8551 / 339.36.87.083</h3>
+        <h3>info@mamantherese.it</h3>
+        <p>Compila il form per inviarci un messaggio</p>
+        <div id="form_mail">
+          <form method="POST" action="sendmail.html">
+            <div id="tabella_form">
+              <table>
+                <tr>
+                  <td><i>Nome*</i></td>
+                  <td><i>Cognome*</i></td>
+                </tr>
+                <tr>
+                  <td><input class="testo" name="nome" type="text" /></td>
+                  <td><input class="testo" name="cognome" type="text" /></td>
+                </tr>
+                <tr>
+                  <td><i>Telefono</i></td>
+                  <td><i>Email*</i></td>
+                </tr>
+                <tr>
+                  <td><input class="testo" name="telefono" type="text" /></td>
+                  <td><input class="testo" name="email" type="text" /></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><i>Messaggio*</i></td>
+                </tr>
+                <tr>
+                  <td colspan="2">
+                    <textarea
+                      class="testo"
+                      name="messaggio"
+                      rows="4"
+                      cols="70"
+                    ></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td><input class="bottone" type="submit" value="Invia" /></td>
+                  <td>
+                    <input class="bottone" type="reset" value="Reset" /><br />
+                  </td>
+                </tr>
+                <br />
+              </table>
             </div>
+          </form>
         </div>
-        <div id="footer">
-          <table>
-    <tr>
-        <td align="center">
-            <i>Maman Th�r�se S.N.C</i></i>
-            <br /><i>E' vietata la riproduzione, anche parziale, di tutti i contenuti</i><br />
-            <i>Powered by <a href="http://www.wsoft-labs.com/?from=mamantherese">Web&Soft</a></i>
-        </td>
-    </tr>
-</table>
-        </div>
-	    </body>
+      </div>
+    </div>
+    <div id="footer">
+      <table>
+        <tr>
+          <td align="center">
+            <i>Maman Thérèse S.N.C</i>
+            <br /><i
+              >È vietata la riproduzione, anche parziale, di tutti i
+              contenuti</i
+            ><br />
+            <i
+              >Powered by
+              <a href="http://www.devweb.it/?from=mamantherese">devweb.it</a></i
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
