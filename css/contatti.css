@@ -1,0 +1,91 @@
+#contact {
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 0px;*/
+    height: 400px;
+    float: none;
+    width: 550px;
+    text-align: center;
+}
+#contact h2 {
+    position: relative;
+    top: 10px;
+    font: normal 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #CE8000;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+}
+#contact h3 {
+    font: normal 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: black;
+    word-spacing: 5px;
+}
+#form_mail table {
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 250px;
+    text-align: center;
+}
+#contact textarea,input {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-color: #CE8000;
+    border-left-color: #CE8000;
+    border-bottom-color: #CE8000;
+    border-top-color: #CE8000;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    border-top-width: 2px;
+    font: normal 12px "Trebuchet MS", Arial, Helvetica, coursive;
+    position: relative;
+    font-weight: bold;
+    background-color: transparent;
+    color: black;
+}
+#contact i {
+    font: normal 12px "Trebuchet MS", Arial, Helvetica, coursive;
+    position: relative;
+    font-weight: bold;
+    color: #CE8000;
+}
+#contact p {
+/*    padding-top: 10px;*/
+    font: normal 10px "Trebuchet MS", Arial, Helvetica, coursive;
+    position: relative;
+    font-weight: bold;
+    color: gray;
+}
+#tabella_form {
+    border-right-style: solid !important;
+    border-left-style: solid !important;
+    border-bottom-style: solid !important;
+    border-top-style: solid !important;
+    border-right-width: 1px !important;
+    border-left-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-top-width: 1px !important;
+    border-right-color: #CE8000 !important;
+    border-left-color: #CE8000 !important;
+    border-bottom-color: #CE8000 !important;
+    border-top-color: #CE8000 !important;
+    background-color: transparent;
+}
+#tabella_form .testo {
+    background-color: transparent;
+    border-color: black;
+}
+#tabella_form .bottone {
+    width: 100px;
+    background-color: transparent;
+    border-color: black;
+}

@@ -1,0 +1,58 @@
+#dove_siamo {
+    position: relative;
+
+}
+.dove_testo {
+    position:relative;
+    margin-left: 10px;
+    width: 45%;
+    float:left;
+}
+.dove_mappa {
+    top: 0px;
+    position:relative;
+    text-align: center;
+    width: 50%;
+    float:right;
+}
+.dove_mappa a {
+    font: normal 10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #000000;
+}
+.dove_testo h1 {
+    font: normal 22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    color: #CE8000;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.dove_testo h2 {
+    font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #000000;
+    word-spacing: 5px;
+    line-height: 5px;
+    text-align: center;
+}
+.dove_testo h3 {
+    font: normal 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #CE8000;
+    word-spacing: 5px;
+    line-height: 10px;
+    text-align: center;
+}
+.dove_testo i {
+    font: normal 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #000000;
+    word-spacing: 5px;
+    text-align: center;
+}
+#dove_siamo a {
+    font: normal 10px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color: #000000;
+}

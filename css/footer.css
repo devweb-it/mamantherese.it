@@ -1,0 +1,19 @@
+#footer table {
+    position: relative;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer i,a {
+    font: normal 10px "Trebuchet MS", Arial, Helvetica, coursive;
+    position: relative;
+    font-weight: bold;
+    color: #000000;
+}
+#footer a:hover {
+    font: normal 10px "Trebuchet MS", Arial, Helvetica, coursive;
+    position: relative;
+    font-weight: bold;
+    color: red;
+}
+

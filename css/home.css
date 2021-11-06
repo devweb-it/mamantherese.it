@@ -1,0 +1,38 @@
+.title {
+    position: relative;
+    top: 10px;
+    font: normal 22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #CE8000;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 5px;
+/*    margin-bottom: 0px;*/
+}
+#content {
+    overflow: auto;
+/*    background-image: url("../img/pasta.png");
+    background-position: center;
+    background-repeat: no-repeat;*/
+/*    background-color: transparent;*/
+/*    height: 85%;*/
+}
+#story {
+    position: relative;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    float: none;
+    width: 90%;
+    text-align: center;
+    
+    
+}
+#story h3 {
+    position: relative;
+    font: normal 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+/*    letter-spacing: 2px;*/
+}

@@ -1,0 +1,24 @@
+html {
+    background-color: #DCCA98;
+}
+#content {
+    position: relative;
+    background-color: #DCCA98;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../img/fresca.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 894px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: none;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-color: #CE8404;
+    border-right-color: #CE8404;
+    border-left-color: #CE8404;
+}

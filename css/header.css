@@ -1,0 +1,13 @@
+#header {
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 180px;    
+}
+#header img {
+    top: 0px;
+    width: 900px;
+    height: 180px;
+}

@@ -1,0 +1,20 @@
+/*CSS RESET*/
+body {
+    padding: 0px;
+}
+ol, ul, li, h5, h1, h2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%; /* TODO: su IE fa casino */
+    /* HACK: rimosso vertical-align, rompe gestisci.html e esegui.html su chrome e firefox ma non su IE
+    vertical-align: baseline;
+    */
+    background: transparent;
+    -webkit-padding-start:0px;
+}
+p, a, img {
+    border: none;
+    text-decoration: none;
+}

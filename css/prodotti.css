@@ -1,0 +1,70 @@
+#prodotti {
+    position: relative;
+    padding: 10px;
+}
+#content{
+    overflow: auto;
+}
+#prodotti h1 {
+    position: relative;
+    color: #CE8000;
+    font: normal 22px "Trebuchet MS", Arial, Helvetica, coursive;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}
+/*.main h1 {
+    position: relative;
+    color: #CE8000;
+    font: normal normal normal 22px/normal 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+}*/
+.main hr {
+
+    width: 700px;
+}
+.right {
+    margin-right: 10px;
+    float: right;
+}
+.left {
+    margin-left: 10px;
+    float: left;
+}
+.nome {
+    color: red;
+    font: normal 16px "Trebuchet MS", Arial, Helvetica, coursive;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.ingredienti {
+    position: relative;
+
+    color: gray;
+    font: normal 14px "Trebuchet MS", Arial, Helvetica, coursive;
+    /*    font-weight: bold;*/
+    /*    letter-spacing: 5px;*/
+}
+.nome_altro {
+    color: red;
+    font: normal 14px "Trebuchet MS", Arial, Helvetica, coursive;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.ingredienti_altro {
+    position: relative;
+
+    color: gray;
+    font: normal 12px "Trebuchet MS", Arial, Helvetica, coursive;
+    /*    font-weight: bold;*/
+    /*    letter-spacing: 5px;*/
+}
+.desc {
+    position: relative;
+    color: black;
+    font: normal 14px "Trebuchet MS", Arial, Helvetica, coursive;
+    /*    font-weight: bold;*/
+    /*    letter-spacing: 5px;*/
+}
